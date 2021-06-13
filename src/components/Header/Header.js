@@ -50,7 +50,7 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/LKHcoding">
+      <SocialIcons target="_blank" href="https://github.com/LKHcoding">
         <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons

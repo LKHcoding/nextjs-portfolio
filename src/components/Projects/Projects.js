@@ -43,7 +43,7 @@ const Projects = () => (
           youtube,
         }) => (
           <BlogCard key={id}>
-            <Img src={image} />
+            <Img alt={`${image} thumbnail`} src={image} />
             <TitleContent>
               <HeaderThree title="true">{title}</HeaderThree>
               <Hr />

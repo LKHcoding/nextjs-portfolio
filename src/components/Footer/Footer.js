@@ -36,7 +36,7 @@ const Footer = () => {
           <Slogan>Powered By LKHcoding</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/LKHcoding">
+          <SocialIcons target="_blank" href="https://github.com/LKHcoding">
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons
