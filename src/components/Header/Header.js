@@ -1,7 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { SiNotion } from "react-icons/si";
 import { DiCssdeck } from "react-icons/di";
+import { MdEmail } from "react-icons/md";
 
 import {
   Container,
@@ -48,14 +50,17 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/LKHcoding">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
-        <AiFillLinkedin size="3rem" />
+      <SocialIcons
+        target="_blank"
+        href="https://www.notion.so/f0efb3447c3e42b1b228d6497ab5be87?v=b05a569e16a84c84802710f69fc2351a"
+      >
+        <SiNotion size="2.5rem" />
       </SocialIcons>
-      <SocialIcons href="https://instagram.com">
-        <AiFillInstagram size="3rem" />
+      <SocialIcons href="mailto:lkhcoding@gmail.com">
+        <MdEmail size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
