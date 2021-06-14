@@ -44,7 +44,7 @@ export default class MyDocument extends Document {
           <meta property="og:title" content="LKHcoding's Portfolio" />
           <meta
             property="og:description"
-            content="Front-End Junior Wen App Developer"
+            content="Front-End Junior Web App Developer"
           />
 
           <link
